@@ -1,0 +1,137 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: grid;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+}
+
+h2 {
+ color: hsl(229, 6%, 66%);
+ font-weight: 400;
+  font-size: 15px;
+}
+
+.head2 {
+  font-size: 35px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+.head {
+  font-size: 35px;
+  color: hsl(234, 12%, 34%);
+  margin-top: 0;
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+ color: hsl(229, 6%, 66%);
+ font-weight: 400;
+}
+
+.des {
+  justify-self: center;
+  min-height: 200px;
+  width: 40%;
+  min-width: 300px;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+
+.com-box{
+  justify-self: center;
+  width: 78%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem;
+}
+
+.box1 {
+  display: grid;
+  width: 300px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  display: grid;
+  justify-self: center;
+  width: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 1.8rem;
+}
+
+.box3 {
+  display: grid;
+  justify-self: center;
+  justify-content: center;
+  width: 300px;
+  align-items: center;
+}
+
+.com-1 {
+  box-shadow: 1px 1px 11px #bbbbbb;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 7px;
+  padding: 2rem;
+  padding-top: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.com-2 {
+  box-shadow: 1px 1px 11px #bbbbbb;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  width: 300px;
+  height: 200px;
+  justify-self: center;
+  background-color: white;
+  border-radius: 7px;
+  margin-top: 1.5rem;
+  padding: 2rem;
+  padding-top: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.com-3 {
+  box-shadow: 1px 1px 11px #bbbbbb;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  width: 300px;
+  height: 200px;
+  justify-self: center;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  border-radius: 7px;
+  padding: 2rem;
+  padding-top: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.com-4 {
+  box-shadow: 1px 1px 11px #bbbbbb;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 7px;
+  padding: 2rem;
+  padding-top: .5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  align-self: flex-end;
+  margin-top: 5px;
+}
